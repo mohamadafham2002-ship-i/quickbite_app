@@ -1,0 +1,10 @@
+# Open YOUR project's pubspec.yaml (already created by `flutter create`)
+# Find the "dependencies:" section and add "provider" under it, like this:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+# IMPORTANT: "provider:" must be indented exactly 2 spaces, same as "flutter:"
+# Then save the file and run: flutter pub get
